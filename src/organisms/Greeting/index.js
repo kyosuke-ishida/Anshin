@@ -1,7 +1,6 @@
 import React              from 'react';
 import styles             from './styles.module.css';
 import MediaObjectLayout  from '../../atoms/MediaObjectLayout/index';
-import Txt                from '../../atoms/Txt/index';
 import Img                from '../../atoms/Img/index';
 import ContentHeading     from '../../molecules/ContentHeading/index';
 import img                from '../../../public/corpimg.001.jpeg';
@@ -10,7 +9,6 @@ const Greeting = ({
                    title,
                    eng, 
                    ceoName,
-                   ceoMessage,
                    ...props
                  }) => (
     <section {...props}>
