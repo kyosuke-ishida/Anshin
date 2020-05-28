@@ -1,0 +1,34 @@
+/* flexにしたい場合 */
+.containerflex {
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+}
+
+.bodyflex {
+    flex: 1;
+    min-width: 0;
+}
+
+/* 並列レイアウトでwidth: 50%で使いたい場合 */
+.containerhalf {
+    align-items: center;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.contenthalf {
+    width: 50%;
+}
+
+.bodyhalf {
+    width: 50%;
+}
+

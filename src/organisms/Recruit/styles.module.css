@@ -1,0 +1,51 @@
+.links {
+    color: var(--color-black);
+    text-decoration: none;
+}
+
+.contents {
+    cursor: pointer;
+    display: flex;
+    background-color: rgba(192, 184, 184, 0.067);
+    height: 18rem;  
+    width: 80%;
+    
+}
+
+.contents:hover {
+    opacity: .7;
+    transform: scale(1.02);
+    transition-duration: .3s;
+}
+
+.contents:hover .arrow {
+    opacity: .7;
+}
+
+.inline {
+    margin: auto;
+}
+
+.heading {
+    display: inline-flex;
+    margin: auto;
+    position: relative;
+    writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    -webkit-writing-mode:vertical-rl;
+    z-index: 1;
+}
+
+.heading::before {
+    color: var(--color-red);
+    content: 'Recruit';
+    font-size: var(--font-size-xxxl);
+    opacity: .2;
+    position: absolute;
+    top: 1rem;
+    left: -1rem;
+    writing-mode: horizontal-tb;
+    -ms-writing-mode: tb-rl;
+    -webkit-writing-mode: horizontal-tb;
+    z-index: 0;
+}

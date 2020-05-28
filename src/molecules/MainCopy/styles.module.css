@@ -1,0 +1,41 @@
+@import "../../properties.css";
+/* firefox */
+_::-webkit-full-page-media, .item {
+   position: absolute;
+}
+
+_::-webkit-full-page-media, .item + .item {
+    margin-left: 2rem;
+}
+
+_::-webkit-full-page-media, .main {
+    left: 2rem;
+}
+/* safari */
+_:lang(x)+_:-webkit-full-screen-document, .item {
+    left: 4rem;
+}
+
+_:lang(x)+_:-webkit-full-screen-document, .main {
+    left: 6rem;
+}
+
+.item {
+    display: inline-flex;
+    float: left;
+    margin: 0;
+    writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    -webkit-writing-mode:vertical-rl;
+}
+
+.item + .item {
+    padding-left: .5rem;
+}
+
+.main {
+    font-family: リュウミン L-KL  または  Ryumin Light KL !important;
+    font-size: 4rem !important;
+    font-weight: 600 !important;
+    margin-left: .8rem;
+}

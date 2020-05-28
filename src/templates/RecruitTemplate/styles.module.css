@@ -1,0 +1,42 @@
+@import "../../properties.css";
+
+.section {
+    margin-bottom: 8rem;
+}
+
+.messagewrapper {
+    padding: 0 10vw;
+}
+
+.messagetitle {
+    color: var(--color-red);
+    margin-bottom: 0;
+}
+
+.messagebig {
+    letter-spacing: .6px;
+    line-height: 1.67;
+}
+
+.text {
+    margin-left: 4rem;
+}
+
+
+.definitionwrapper {
+    background-color: rgba(192, 184, 184, 0.067);  
+    display: block;
+    padding: 3vw 10vw 5vw 14vw;
+}
+
+.applicantHeading {
+    display: inline-block;
+}
+
+.definitionlist {
+    background-color: var(--color-white);
+    border-radius: 20px;
+    margin: 0;
+    padding: 80px 100px;
+    width: 80%;
+}

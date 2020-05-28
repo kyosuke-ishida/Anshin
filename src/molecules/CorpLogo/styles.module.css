@@ -1,0 +1,23 @@
+@import '../../properties.css';
+
+.root {
+    display: block;
+    width: 290px;
+}
+
+.root:hover {
+    opacity: 0.5;
+    transition-duration: 0.6s;
+}
+
+.logo {
+    color: var(--color-black);
+    font-size: var(--font-size-l);
+    text-decoration: none;
+}
+
+.name {
+    display: block;
+    font-weight: 700;
+}
+

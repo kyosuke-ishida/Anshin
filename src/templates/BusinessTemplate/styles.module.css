@@ -1,0 +1,40 @@
+.section {
+    margin-bottom: 10rem;
+}
+
+.headwrapper {
+    line-height: 2.5rem;
+    text-align: center;
+}
+
+.heading {
+    display: inline-block;
+    font-weight: 500 !important;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    position: relative;
+}
+
+.heading::before {
+    background-color: var(--color-red);
+    bottom: -20px;
+    content: '';
+    display: inline-block;
+    height: 2px;
+    left: 50%;
+    position: absolute; 
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translate(-50%);
+    width: 50px;
+}
+
+.outline {
+    text-align: center;
+}
+
+.img {
+    margin: 0;
+    width: 100%;
+}

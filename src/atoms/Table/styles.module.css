@@ -1,0 +1,25 @@
+  table{
+    border-collapse: collapse;
+    width: 70rem;
+  }
+  
+  table tr{
+    border: solid 1px rgb(241, 241, 241);
+    border-left: transparent;
+    border-right: transparent;
+  }
+  
+  table th{
+    background-color: rgb(245, 246, 248);
+    font-weight: 400;
+    padding: 25px 0;
+    position: relative;
+    text-align: center;
+    width: 20%;
+  }
+  
+  table td{
+    padding: 0 40px;
+    text-align: left;
+    width: 70%;
+  }

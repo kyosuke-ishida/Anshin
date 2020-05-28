@@ -1,0 +1,11 @@
+.mainCopy {
+    left: 15%;
+    height: 550px;
+    position: absolute;
+    top: 13rem;
+    z-index: 10;
+}
+
+.interval {
+    margin-top: 6rem;
+}

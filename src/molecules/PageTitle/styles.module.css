@@ -1,0 +1,24 @@
+.titlewrapper {
+    display: inline-block;
+    background-color: var(--color-white);
+    border-left: var(--color-company) solid 3px;
+    height: auto;
+    width: 35%;
+    padding: 0 12rem 6rem 2rem; 
+    position: absolute;
+    text-align: center;
+    top: 20rem;
+    z-index: 1;
+}
+
+.visualwrapper {
+    height: auto;
+    text-align: right;
+    width: 100%;
+    z-index: 0;
+}
+
+.image {
+    height: auto;
+    width: 70%;
+}

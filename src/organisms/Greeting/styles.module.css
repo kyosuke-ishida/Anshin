@@ -1,0 +1,26 @@
+.layout {
+    width: 70rem;
+    margin: 0 auto;
+}
+
+.img {
+    height: 300px;
+    width: 500px;
+}
+
+.text {
+    line-height: 1.8rem;
+    margin: 0;
+    padding: 0 2rem;
+}
+
+.name {
+    padding-top: 5rem;
+    text-align: right;
+}
+
+.em {
+    font-family: リュウミン L-KL  または  Ryumin Light KL !important;
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+}

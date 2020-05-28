@@ -1,0 +1,41 @@
+@import "../../properties.css";
+
+/* デフォルトデザイン */
+.definition {
+    border-top: 1px solid rgb(231, 226, 226);
+    display: flex;
+    line-height: 1;
+    margin: 0;
+    padding: 33px 0;
+}
+
+.definition:last-child {
+    border-bottom: 1px solid rgb(231, 226, 226);
+}
+
+.definition__term {
+    font-weight: 700;
+    padding-left: 20px;
+    width: 20%;
+}
+
+.definition__desc {
+    margin: 0;
+}
+
+
+/* type={'__input'}の場合 */
+.definition__input {
+    display: flex;
+    line-height: 1;
+    margin: 0;
+    padding: 33px 0;
+}
+
+.definition__term__input {
+    width: 10rem;
+}
+
+.definition__desc__input {
+    margin: 0;
+}

@@ -1,0 +1,45 @@
+.recruitheading {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.img {
+    height: auto;
+    width: 64%;
+}
+
+.headingwrapper {
+    width: 36%;
+    text-align: center;
+}
+
+.heading {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    -ms-writing-mode: tb-rl;
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+}
+
+.text {
+    display: inline-block;
+    font-size: 2rem;
+    position:relative;
+    width: 100%;
+}
+
+.text::after {
+    background-color: #f08080;
+    content: "";
+    display: block;
+    height: 6em;
+    opacity: .8;
+    right: 10%;
+    position: absolute;
+    top: 0;
+    width: 25%;
+    z-index: -10;
+}

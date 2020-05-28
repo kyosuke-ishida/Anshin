@@ -1,0 +1,19 @@
+.footer {
+    padding: 3rem 8rem;    
+    position: relative;
+}
+
+.footerinner {
+    display: flex;
+    height: 17rem;
+    margin: auto;
+}
+
+.basicinfo {
+    width: 50%;
+}
+
+.links {
+    text-align: right;
+    width: 50%;
+}

@@ -1,0 +1,32 @@
+.section {
+    margin-bottom: 8rem;
+}
+
+.inputwrapper {
+    position: relative;
+}
+
+.input {
+    background-color: rgba(192, 184, 184, 0.067);
+    border: 1px solid rgba(12, 11, 11, 0.067); 
+    font-size: 16px;
+    height: 40px;
+    padding: 2px 8px;
+    vertical-align: middle;
+    width: 500px;
+}
+
+.textarea {
+    background-color: rgba(192, 184, 184, 0.067);
+    border: 1px solid rgba(12, 11, 11, 0.067); 
+    font-size: 16px;
+    height: 200px;
+    padding: 2px 8px;
+    vertical-align: middle;
+    width: 500px;
+}
+
+.form {
+    margin: 0 auto;
+    max-width: 800px;
+}

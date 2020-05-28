@@ -1,0 +1,13 @@
+@import "../../properties.css";
+
+.header {
+    height: 345px;
+}
+
+.headerinner {
+    padding: 4rem 8rem 2rem 8rem;
+}
+
+.lists {
+    text-align: right;
+}

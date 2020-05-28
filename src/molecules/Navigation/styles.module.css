@@ -1,0 +1,25 @@
+@import "../../properties.css";
+
+.list {
+    display: inline-flex;
+    font-size: var(--font-size-m);
+    list-style: none;
+    cursor: pointer;
+}
+
+.item + .item {
+    padding-left: 6rem;
+}
+
+.link {
+    color: var(--color-black);
+    text-decoration: none;
+    writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    -webkit-writing-mode:vertical-rl;  
+}
+
+.link:hover, .current {
+    color: var(--color-link-hover);
+    transition-duration: 0.15s;
+}

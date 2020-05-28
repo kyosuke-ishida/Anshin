@@ -1,0 +1,23 @@
+@import '../../properties.css';
+
+.root {
+}
+
+.slide {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: auto;
+}
+
+.list {
+    background-image: url(../../../public/main-image.jpg);
+    float: none;
+    /* display: none; */  /* 画像を複数で切替にする場合は必要 */
+    height: 600px;
+    z-index: 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
