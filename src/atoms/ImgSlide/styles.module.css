@@ -1,23 +1,29 @@
 @import '../../properties.css';
 
 .root {
+    position: relative;
+    width: 100%;
+    height: 600px;
 }
 
 .slide {
     list-style: none;
     margin: 0;
     padding: 0;
-    position: relative;
-    width: auto;
+    position: absolute;
+    /* top: 168px; */
+    right: -100px;
+    width: 82%;
+    bottom: 0;
 }
 
 .list {
-    background-image: url(../../../public/main-image.jpg);
+    background-image: url(../../../public/corpimg.001.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
     float: none;
     /* display: none; */  /* 画像を複数で切替にする場合は必要 */
     height: 600px;
-    z-index: 0;
-    background-position: center center;
-    background-repeat: no-repeat;
     width: 100%;
+    z-index: 0;
 }
