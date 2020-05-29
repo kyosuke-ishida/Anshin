@@ -9,7 +9,7 @@ import {contactPage}   from '../../data/data';
 const Contact = ({...props}) => (
     <section {...props}>
         <div className={styles.root}>
-        <ContentHeading title={'お問い合わせ'} eng={'Contact'} />
+            <ContentHeading title={'お問い合わせ'} eng={'Contact'} />
             <div className={styles.body}>
                 <div className={styles.inline}>
                     <div className={styles.left}>

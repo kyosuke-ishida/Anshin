@@ -7,7 +7,7 @@ const Header = ({className, navigations, ...props}) => (
     <section className={[styles.header, className].join(' ')} {...props}>
         <div className={styles.headerinner}>
             <div className={styles.corpname}>
-                <CorpLogo>株式会社あんしんセキュリティ</CorpLogo>
+                <CorpLogo>株式会社あんしんセキュリティー</CorpLogo>
             </div>
             <div className={styles.lists}>
                 <Navigation className={styles.list} items={navigations} />
