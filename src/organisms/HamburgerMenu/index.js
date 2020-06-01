@@ -5,13 +5,13 @@ import DropDownMenu from '../../molecules/DropDownMenu/index';
 const StyledBurger = styled.div`
   width: 2rem;
   height: 1.5rem;
-  position: absolute;
+  position: fixed;
   top: 15px;
   right: 20px;
   z-index: 20;
   display:none;
 
-  @media (max-width: 590px) {
+  @media (max-width: 375px) {
     display: flex;
     justify-content: space-around;
     flex-flow: column nowrap;
@@ -40,9 +40,9 @@ const StyledBurger = styled.div`
   }
 `;
 
-
 const HamburgerMenu = () => {
   const [open, setOpen] = useState(false);
+
   return (
     <>
       <StyledBurger open={open} onClick={()=>setOpen(!open)}>
@@ -50,7 +50,7 @@ const HamburgerMenu = () => {
           <div />
           <div />
       </StyledBurger>
-      <DropDownMenu open={open} />
+      <DropDownMenu open={open}/>
     </> 
   );
 };

@@ -4,7 +4,7 @@ import {navigations} from '../../data/data';
 import {Link}        from '@reach/router';
 
 const UI = styled.ul`
-    display:none;
+    display: none;
   　list-style: none;
     flex-flow: row nowrap;
 
@@ -16,7 +16,7 @@ const UI = styled.ul`
         background-color: white;
         display:flex;
         flex-flow: column nowrap;
-        height: 50vh;
+        height: auto;
         opacity: .9;
         padding-top: 3.5rem;
         position: fixed;
