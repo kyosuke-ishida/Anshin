@@ -1,7 +1,8 @@
-import React from 'react';
-import styles from './styles.module.css';
-import CorpLogo from '../../molecules/CorpLogo/index';
-import Navigation from '../../molecules/Navigation/index';
+import React         from 'react';
+import styles        from './styles.module.css';
+import CorpLogo      from '../../molecules/CorpLogo/index';
+import Navigation    from '../../molecules/Navigation/index';
+import HamburgerMenu from '../HamburgerMenu/index';
 
 const Header = ({className, navigations, ...props}) => (
     <section className={[styles.header, className].join(' ')} {...props}>
@@ -10,7 +11,10 @@ const Header = ({className, navigations, ...props}) => (
                 <CorpLogo>株式会社あんしんセキュリティー</CorpLogo>
             </div>
             <div className={styles.lists}>
-                <Navigation className={styles.list} items={navigations} />
+                <Navigation items={navigations} />
+            </div>
+            <div>
+                <HamburgerMenu />
             </div>
         </div>
     </section>

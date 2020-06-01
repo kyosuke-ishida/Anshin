@@ -8,7 +8,8 @@ const Map = ({...props}) => (
             frameBorder="0"
             scrolling="no" 
             height="600"
-            width="1120"
+            width="800"
+            className={styles.map}
             >
         </iframe>
     </div>

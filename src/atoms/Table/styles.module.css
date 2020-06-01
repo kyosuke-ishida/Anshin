@@ -23,3 +23,27 @@
     text-align: left;
     width: 70%;
   }
+
+  @media screen and (max-width: 1024px) {
+    table {
+        width: 90%;
+    }       
+}
+
+@media (max-width: 590px) {
+  table th{
+    background-color: white;
+    padding: 3px 0;
+    text-align: left;
+    width: 100%;
+  }
+
+  table td{
+    padding: .5em 0;
+    width: 100%;
+  }
+
+  th, td {
+    display: block;
+  }
+}

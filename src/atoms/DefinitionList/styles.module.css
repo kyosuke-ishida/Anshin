@@ -33,9 +33,40 @@
 }
 
 .definition__term__input {
+    text-align: left;
     width: 10rem;
 }
 
 .definition__desc__input {
     margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+    .definition {
+        display: block;
+    }    
+
+    .definition__term {
+        padding-left: 0;
+        padding-bottom: 1rem;
+        width: 100%;
+    }    
+
+    .definition__desc {
+        line-height: 1.5;
+        width: 100%;
+    }    
+
+    .definition__input {
+        display: block;
+    }    
+
+    .definition__term__input {
+        margin-bottom: 1rem;
+    }
+
+    .definition__desc__input {
+        margin: 0;
+        width: 92%;
+    }    
 }

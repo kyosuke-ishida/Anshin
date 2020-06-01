@@ -14,3 +14,23 @@
     color: var(--color-company) !important;
     margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+    .heading {
+        font-size: var(--font-size-xxl) !important;
+    }
+
+    .eng {
+        font-size:  var(--font-size-s) !important;
+    }    
+}
+
+@media (max-width: 590px) {
+    .heading {
+        font-size: var(--font-size-l) !important;
+    }
+
+    .eng {
+        font-size:  var(--font-size-xs) !important;
+    }    
+}

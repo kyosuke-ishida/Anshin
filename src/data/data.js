@@ -100,5 +100,5 @@ export const applicantGuideline = [
  * */
 // 問い合わせコピー
 export const contactHeading = {
-  title: 'お問い合わせ', eng: 'Contact'
+  title: 'お問い合せ', eng: 'Contact'
 };  

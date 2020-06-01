@@ -12,3 +12,50 @@
     margin: 0;
     opacity: .8;
 }
+
+.text {
+    width: 80%;
+}
+
+@media screen and (max-width: 1024px) {
+    .subhead {
+        font-size: 2.7rem;
+    }    
+
+    .text {
+        width: 80%;
+    }       
+}
+
+@media screen and (max-width: 768px) {
+    .subhead {
+        font-size: 2.1rem;        
+   }
+}
+
+@media (max-width: 590px) {
+
+    .outline {
+        padding: 0;
+        width: 100%;
+    }       
+
+    .exp {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .subhead {
+        font-size: 1.8rem;
+        margin: 2rem 0;
+    }    
+
+    .text {
+        width: 100%;
+    }       
+
+    .button {
+        margin-top: 3rem;
+        text-align: center;
+    }
+}

@@ -38,3 +38,38 @@
     margin: 0;
     width: 100%;
 }
+
+@media (max-width: 590px) {
+    .section {
+        margin-bottom: 6rem;
+    }    
+
+    .headwrapper {
+        margin:0 auto;
+        padding-bottom: 6rem;
+        width: 90%;
+    }
+
+    .heading {
+        font-size: 22px !important;
+    }
+
+    .outline {
+        padding-top: 2rem;
+    }
+
+    .text {
+        text-align: left;
+        line-height: 1.7;
+    }
+   
+    .media {
+        display:-webkit-box !important;
+        display: -webkit-flex !important;
+        display:-ms-flexbox !important;
+        display: flex !important;
+        -webkit-flex-wrap:wrap;
+        -ms-flex-wrap:wrap;
+        flex-wrap:wrap;
+    }
+}

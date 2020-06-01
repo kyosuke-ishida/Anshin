@@ -1,0 +1,16 @@
+.wrapper {
+    text-align: center;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        width: 80%;
+    }
+    
+    .text {
+        line-height: 1.6;
+        margin: 1rem 0;
+        padding: 0;
+    }
+}

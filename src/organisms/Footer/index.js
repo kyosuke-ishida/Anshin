@@ -10,8 +10,8 @@ const Footer = ({navigations, ...props}) => (
         <div className={styles.footerinner}>
             <div className={styles.basicinfo}>
                 <CorpLogo>株式会社あんしんセキュリティー</CorpLogo>
-                <Txt>岐阜県岐阜市西川手6丁目62番地1</Txt>
-                <Txt>TEL: 058-213-7821</Txt>
+                <Txt className={styles.text}>岐阜県岐阜市西川手6丁目62番地1</Txt>
+                <Txt className={styles.text}>TEL: 058-213-7821</Txt>
             </div>
             <div className={styles.links}>
                 <Navigation items={navigations} />

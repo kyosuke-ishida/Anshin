@@ -4,12 +4,13 @@ import {Link}          from '@reach/router';
 
 const LinkButton = ({
     page,
-    buttonTxt
+    buttonTxt,
+    ...props
 }) => (
-    <div>
-    <Link to={page}>
-        <PrimaryButton>{buttonTxt}</PrimaryButton>
-    </Link>
+    <div {...props}>
+        <Link to={page}>
+            <PrimaryButton>{buttonTxt}</PrimaryButton>
+        </Link>
     </div>
 );
 

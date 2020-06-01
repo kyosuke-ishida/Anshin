@@ -9,11 +9,11 @@ import {contactPage}   from '../../data/data';
 const Contact = ({...props}) => (
     <section {...props}>
         <div className={styles.root}>
-            <ContentHeading title={'お問い合わせ'} eng={'Contact'} />
+        <ContentHeading title={'お問い合わせ'} eng={'Contact'} />
             <div className={styles.body}>
                 <div className={styles.inline}>
                     <div className={styles.left}>
-                        <Txt className={styles.msg}>ご相談・ご質問等ございましたら、お気軽にお問い合わせください。</Txt>
+                       ご相談・ご質問等ございましたら、<br/>お気軽にお問い合わせください。
                     </div>
                     <div className={styles.right}>
                         <Heading className={styles.tel}>058-213-7821</Heading>

@@ -11,3 +11,38 @@
 .lists {
     text-align: right;
 }
+
+.hamburgermenu {
+    display: none;
+}
+
+/* タブレット */
+@media screen and (max-width: 1124px) {
+    .headerinner {
+        padding: 2rem 4rem 2rem 2rem;
+    }       
+}
+
+@media screen and (max-width: 768px) {
+    .headerinner {
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .header {
+        height: 150px;
+    }
+    
+    .headerinner {
+        padding: 1rem;
+    }       
+
+    .lists {
+        display: none;
+    }
+
+    .hamburgermenu {
+        display: inline-block;
+    }
+}

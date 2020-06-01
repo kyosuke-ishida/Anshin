@@ -34,12 +34,12 @@ const RecruitTemplate = () => (
         </section>
         <section className={[styles.messagewrapper, styles.section].join(' ')} >
             <Heading level={5} className={styles.messagetitle}>メッセージ</Heading>
-            <MediaObjectLayout layout={'half'}>
+            <MediaObjectLayout layout={'half'} className={styles.media}>
                 <div>
-                    <Heading level={4} className={styles.messagebig}>採用候補者に求めることその１を書く<br/>または業務で意識していること、すべきこと</Heading>
+                    <Heading level={4} className={styles.messagebig}>採用候補者に求めることその１を書く。または業務で意識していること、すべきこと</Heading>
                 </div>
                 <div className={styles.text}>
-                    <Txt>
+                    <Txt className={styles.message}>
                         SEOを意識した文章をかく。以下は例。水道工事やイベントなど、様々な現場で経験を積むことができます。
                         最初は実務経験者と現場を経験していただき、徐々にリーダーとして現場を率いていただきます。
                     </Txt>
@@ -50,7 +50,8 @@ const RecruitTemplate = () => (
                     <Heading level={4} className={styles.messagebig}>採用候補者に求めることその2を書くまたは業務で意識していること、すべきこと</Heading>
                 </div>
                 <div className={styles.text}>
-                    <Txt>SEOを意識した文章をかく。以下は例。水道工事やイベントなど、様々な現場で経験を積むことができます。
+                    <Txt className={styles.message}>
+                        SEOを意識した文章をかく。以下は例。水道工事やイベントなど、様々な現場で経験を積むことができます。
                         最初は実務経験者と現場を経験していただき、徐々にリーダーとして現場を率いていただきます。</Txt>
                 </div>
             </MediaObjectLayout>

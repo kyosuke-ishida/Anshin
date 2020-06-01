@@ -32,3 +32,11 @@
 .primary:active {
     transform: translateY(4px);
 }
+
+
+@media screen and (max-width: 768px) {
+    .button {
+        font-size: .7rem;
+        padding: 1.2rem 4.7rem;        
+   }
+}

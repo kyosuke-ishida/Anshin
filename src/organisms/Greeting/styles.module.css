@@ -24,3 +24,32 @@
     font-size: var(--font-size-xl);
     font-weight: 600;
 }
+
+@media screen and (max-width: 1124px) {
+    .layout {
+        width: 90%;
+        margin: 0 auto;
+    }       
+
+    .name {
+        padding-top: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 904px) {
+    .layout {
+        text-align: center;
+    }
+
+    .text {
+        line-height: 1.9rem;
+        text-align: left;
+    }
+}
+
+@media (max-width: 590px) {
+    .img {
+        width: 100%;
+    }       
+}

@@ -8,8 +8,7 @@
     display: flex;
     background-color: rgba(192, 184, 184, 0.067);
     height: 18rem;  
-    width: 80%;
-    
+    width: 80%;    
 }
 
 .contents:hover {
@@ -38,7 +37,7 @@
 
 .heading::before {
     color: var(--color-red);
-    content: 'Recruit';
+    content: 'Recruitment';
     font-size: var(--font-size-xxxl);
     opacity: .2;
     position: absolute;
@@ -48,4 +47,53 @@
     -ms-writing-mode: tb-rl;
     -webkit-writing-mode: horizontal-tb;
     z-index: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .contents {
+        height: 16rem;  
+        width: 90%;    
+    }
+
+    .text {
+        width: 90%;
+    }
+    
+    .inline {
+        margin-left: 8rem;
+    }    
+
+    .heading {
+        padding-left: 2rem;
+    }    
+
+    .heading::before {
+        top: .5rem;
+        left: 1rem;
+    }    
+}
+
+@media (max-width: 590px) {
+    .contents {
+        display: inline-block;
+        height: 25rem;  
+        width: 100%;    
+    }
+    
+    .inline {
+        margin: 0 auto;       
+        width: 90%;
+    }
+    
+    .heading {
+        display: inline-block;
+        margin-bottom: 1rem;
+        padding: 2rem;
+        text-align: left;
+    }
+    
+    .heading::before {
+        top: 2rem;
+        left: 1rem;
+    }       
 }

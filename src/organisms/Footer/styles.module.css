@@ -17,3 +17,43 @@
     text-align: right;
     width: 50%;
 }
+
+@media screen and (max-width: 1124px) {
+    .footer {
+        padding: 2rem;           
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .footer {
+        padding: 2rem;           
+    }
+}
+
+@media (max-width: 590px) {
+    .footer {
+        padding: 1rem;           
+    }
+
+    .footerinner {
+        display: inline-block;
+        margin: auto;
+    }
+    
+    .basicinfo {
+        width: 100%;
+    }
+    
+    .links {
+        margin-top: .5rem;
+        text-align: left;
+        width: 100%;
+    }    
+
+    .text {
+        font-size: 13px;
+        line-height: 1.7;
+        margin: 0;
+        width: 100%;
+    }
+}

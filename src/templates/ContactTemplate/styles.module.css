@@ -30,3 +30,17 @@
     margin: 0 auto;
     max-width: 800px;
 }
+
+@media screen and (max-width: 768px) {
+    .section {
+        margin-bottom: 4rem;
+    }
+
+    .input {
+        width: 100%;
+    }
+
+    .textarea {
+        width: 100%;       
+    }
+}

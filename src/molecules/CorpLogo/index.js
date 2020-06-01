@@ -7,14 +7,14 @@ import logo   from '../../../public/logo.jpeg';
 const CorpLogo = ({
     children
     ,href="/"
-    ,width="200"
+    ,width=""
     ,alt='会社ロゴ'
     ,className
     , ...props
 }) => (
     <div className={[styles.root, className].join(' ')} {...props}>
         <Anchor className={styles.logo} href={href} alt={alt}>
-            <Img src={logo} width={width} />
+            <Img src={logo} width={width} className={styles.image} />
             <span className={styles.name}>{children}</span>
         </Anchor>
     </div>

@@ -9,8 +9,8 @@ import {corporatePage}    from '../../data/data';
 
 const CompanyInf = ({...props}) => (
     <section {...props}>
-        <ContentHeading title={'会社情報'} eng={'Company Information'}></ContentHeading>
-        <MeadiaObjectLayout layout={'half'}>
+        <ContentHeading title={'会社情報'} eng={'Company Information'} className={styles.contentheading}></ContentHeading>
+        <MeadiaObjectLayout layout={'half'}  className={styles.media}>
             <BusinessOutline 
                 heading={'会社情報'}
                 outline={'ここに会社情報が入ります。ここに会社設立の原点を書いてはどうか。'}
@@ -21,6 +21,5 @@ const CompanyInf = ({...props}) => (
         </MeadiaObjectLayout>
     </section>
 );
-
 
 export default CompanyInf;

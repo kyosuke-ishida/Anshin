@@ -6,9 +6,10 @@ import Txt     from '../../atoms/Txt/index';
 const ContentHeading = ({
     title,
     eng,
+    className,
     ...props
 }) => (
-    <div className={styles.root} {...props}>
+    <div className={[styles.root, className].join(' ')} {...props}>
         <Heading className={styles.heading} visualLevel={2}>{title}</Heading>
         <Txt className={styles.eng}>{eng}</Txt>
     </div>

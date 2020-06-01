@@ -39,3 +39,36 @@ _:lang(x)+_:-webkit-full-screen-document, .main {
     font-weight: 600 !important;
     margin-left: .8rem;
 }
+
+@media screen and (max-width: 1024px) {   
+    .item + .item {
+        padding-left: .3rem;
+    }   
+
+    .main {
+        font-size: 3.6rem !important;
+        height: 32rem;
+        margin-left: .2rem;
+    }    
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        font-size: 3rem !important;
+        height: 25rem;
+        margin-left: .2rem;
+    }    
+}
+
+@media (max-width: 590px) {
+    .main {
+        height: 16rem;
+        font-size: 2rem !important;
+        font-weight: 500 !important;
+        margin-left: 0;
+    }   
+
+    .item + .item {
+        padding-left: 0rem;
+    }    
+}

@@ -19,14 +19,15 @@
     position: absolute;
     right: 0;
     top: 0;
-    width: 65rem;
+    width: 63rem;
     vertical-align: middle;
 }
 
 .left {
-    text-align: center;
     width: 40%;
     margin: auto 0;
+    padding: 0 4.5rem;
+    text-align: center;
 }
 
 .right {
@@ -35,10 +36,6 @@
     text-align: center;
     width: 60%;
 }   
-
-.msg {
-    padding: 0 4.5rem;
-}
 
 .tel {
     font-family: 'Times New Roman', Times, serif;
@@ -52,4 +49,49 @@
 
 .tel::before {
     content: url('../../../public/call.svg');
+}
+
+@media screen and (max-width: 1024px) {
+    .inline {
+        width: 80%;
+    }            
+}
+
+@media screen and (max-width: 768px) {
+    .left {
+        line-height: 1.6;
+        padding: 0 3rem;
+        text-align: left;
+    }
+
+    .tel {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .body {
+        height: 25rem;
+    }
+
+    .inline{
+        display: inline-block;
+        height: 90%;
+        width: 90%;
+    }
+
+    .left {
+        width: 100%;
+        margin: auto 0;
+        padding: 2rem 0;
+        text-align: center;
+    }
+    
+    .right {
+        border-bottom: none;
+        border-top: 1.5px solid rgba(243, 242, 242, 0.904);
+        padding-top: 2rem;
+        text-align: center;
+        width: 100%;
+    }       
 }

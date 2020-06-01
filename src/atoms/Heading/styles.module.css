@@ -14,3 +14,9 @@
     border-bottom: 1px solid #ddd;
     padding-bottom: .5rem;
 }
+
+@media (max-width: 590px) {
+    .h {
+        font-weight: 400;
+    }
+}

@@ -40,3 +40,44 @@
     padding: 80px 100px;
     width: 80%;
 }
+
+@media screen and (max-width: 1324px) {
+    .definitionwrapper {
+        padding: 3vw 10vw 5vw 7vw;
+    }       
+}
+
+@media screen and (max-width: 950px) {
+    .definitionwrapper {
+        padding: 3vw 10vw 5vw 2vw;
+    }       
+}
+
+@media (max-width: 800px) {
+    .section {
+        margin-bottom: 4rem;
+    }    
+
+    .definitionwrapper {
+        background-color: rgba(192, 184, 184, 0.067);  
+        padding: 2rem 0;
+        width: 100%;
+   }
+
+    .definitionlist {
+        background-color: var(--color-white);
+        border-radius: 10px;
+        margin: 0 auto;
+        padding: 0 1rem;
+        width: 90%;
+    }       
+
+    .messagebig {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .text {
+        margin-left: 0;
+    }
+}

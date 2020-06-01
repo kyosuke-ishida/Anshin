@@ -14,9 +14,9 @@ const BusinessOutline = ({
     <div className={styles.outline}>
         <div className={styles.exp}> 
             <Heading visualLevel={3} className={styles.subhead}>{heading}</Heading>
-            <Txt>{outline}</Txt>
+            <Txt className={styles.text}>{outline}</Txt>
         </div>
-        <LinkButton page={page} buttonTxt={buttonTxt} />
+        <LinkButton page={page} buttonTxt={buttonTxt} className={styles.button} />
     </div>
 );
 

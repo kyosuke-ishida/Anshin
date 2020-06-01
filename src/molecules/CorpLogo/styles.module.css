@@ -16,8 +16,26 @@
     text-decoration: none;
 }
 
+.image {
+    width: 200px;
+}
+
 .name {
     display: block;
     font-weight: 700;
 }
 
+@media screen and (max-width: 500px) {
+    .root {
+        display: inline-block;
+        width: 200px;
+    }
+
+    .image {
+        width: 150px;
+    }
+   
+    .name {
+        font-size: var(--font-size-s) !important;
+    }    
+}

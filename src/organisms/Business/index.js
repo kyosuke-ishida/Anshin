@@ -9,7 +9,7 @@ import {businessPage}    from '../../data/data';
 
 const Business = ({...props}) => (
     <section {...props}>
-        <ContentHeading title={'事業内容'} eng={'Business'}></ContentHeading>
+        <ContentHeading title={'事業内容'} eng={'Business'} className={styles.contentheading} ></ContentHeading>
         <MeadiaObjectLayout layout={'half'}>
             <Img src={img} className={styles.img} />
             <BusinessOutline 

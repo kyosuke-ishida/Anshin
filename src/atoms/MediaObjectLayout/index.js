@@ -1,4 +1,4 @@
-import React from 'react';
+import React  from 'react';
 import styles from './styles.module.css';
 
 // リスト表示などで左に写真　右に情報などをレイアウトするコンポーネント

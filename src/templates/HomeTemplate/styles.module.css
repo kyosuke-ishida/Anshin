@@ -9,3 +9,27 @@
 .interval {
     margin-top: 6rem;
 }
+
+@media screen and (max-width: 1024px) {
+ .mainCopy {
+    left: 10%;
+ }   
+}
+
+@media screen and (max-width: 768px) {
+    .interval {
+        margin-top: 8rem;
+    }
+    
+    .mainCopy {
+       left: 8%;
+    }   
+}
+
+@media (max-width: 590px) {
+    .mainCopy {
+        left: 8%;
+        height: 200px;
+        top: 7rem;
+    }       
+}

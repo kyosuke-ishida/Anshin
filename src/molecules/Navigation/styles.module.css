@@ -23,3 +23,34 @@
     color: var(--color-link-hover);
     transition-duration: 0.15s;
 }
+
+@media screen and (max-width: 900px) {
+    .item + .item {
+        padding-left: 3rem;
+    }       
+}
+
+@media screen and (max-width: 768px) {
+    .item + .item {
+        padding-left: 2rem;
+    }       
+}
+
+@media (max-width: 590px) {
+    .list {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+
+    .link {
+        writing-mode: horizontal-tb;
+        -ms-writing-mode: horizontal-tb;
+        -webkit-writing-mode: horizontal-tb;  
+        text-orientation: upright;
+    }   
+
+    .item + .item {
+        padding: 10px 0 10px 0;
+    }       
+}
