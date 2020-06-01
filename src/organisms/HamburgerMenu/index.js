@@ -50,7 +50,10 @@ const HamburgerMenu = () => {
           <div />
           <div />
       </StyledBurger>
-      <DropDownMenu open={open}/>
+      {open? 
+      <DropDownMenu open={open}/> : <></>
+      }
+
     </> 
   );
 };

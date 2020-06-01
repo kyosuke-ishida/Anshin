@@ -4,7 +4,7 @@ import {navigations} from '../../data/data';
 import {Link}        from '@reach/router';
 
 const UI = styled.ul`
-    display: none;
+    diplay: none;
   　list-style: none;
     flex-flow: row nowrap;
 

@@ -11,7 +11,6 @@ import {
         navigations, 
         corporateHeading,
         greetingHeading,
-        ceoMessage,
         ceoName,
         table,
         accessHeading
@@ -30,7 +29,6 @@ const CorporateTemplate = () => (
         <Greeting 
             title={greetingHeading.title}
             eng={greetingHeading.eng}
-            ceoMessage={ceoMessage}
             ceoName={ceoName}
             className={styles.section}
         />

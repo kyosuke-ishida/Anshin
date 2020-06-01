@@ -13,7 +13,7 @@ const Header = ({className, navigations, ...props}) => (
             <div className={styles.lists}>
                 <Navigation items={navigations} />
             </div>
-            <div>
+            <div className={styles.hamburgermenu}>
                 <HamburgerMenu />
             </div>
         </div>
