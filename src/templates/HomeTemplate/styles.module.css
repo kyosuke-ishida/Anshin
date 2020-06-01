@@ -28,8 +28,11 @@
 
 @media (max-width: 590px) {
     .mainCopy {
-        left: 2%;
+        left: 0;
         height: 200px;
+        padding: 0;
+        position: absolute;
+        margin: 0;
         top: 7rem;
     }       
 }

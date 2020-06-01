@@ -88,8 +88,8 @@
     }
     
     .right {
-        border-bottom: none;
         border-top: 1.5px solid rgba(243, 242, 242, 0.904);
+        border-left: none;
         padding-top: 2rem;
         text-align: center;
         width: 100%;
