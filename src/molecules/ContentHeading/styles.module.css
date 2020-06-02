@@ -27,10 +27,12 @@
 
 @media (max-width: 590px) {
     .heading {
-        font-size: var(--font-size-l) !important;
+        font-size: var(--font-size-xl) !important;
+        font-weight: 500 !important;
     }
 
     .eng {
         font-size:  var(--font-size-xs) !important;
+        font-weight: 500 !important;
     }    
 }

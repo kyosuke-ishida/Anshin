@@ -38,6 +38,7 @@
     .footerinner {
         display: inline-block;
         margin: auto;
+        padding-bottom: 2rem;
     }
     
     .basicinfo {
@@ -45,7 +46,7 @@
     }
     
     .links {
-        margin-top: .5rem;
+        margin-top: 1rem;
         text-align: left;
         width: 100%;
     }    

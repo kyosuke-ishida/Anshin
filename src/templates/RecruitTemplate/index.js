@@ -1,3 +1,7 @@
+// ****************
+// 採用情報ページ
+// ****************
+
 import React                 from 'react';
 import styles                from './styles.module.css';
 import PageTitle             from '../../molecules/PageTitle/index';
@@ -29,17 +33,20 @@ const RecruitTemplate = () => (
         />
         <RecruitTitle recruitImg={recruitImg} className={styles.section} />
         <section className={[styles.definitionwrapper, styles.section].join(' ')} >
-            <Heading className={styles.applicantHeading}>募集要項</Heading>
+
             <DefinitionList items={applicantGuideline} className={styles.definitionlist} />
         </section>
         <section className={[styles.messagewrapper, styles.section].join(' ')} >
             <Heading level={5} className={styles.messagetitle}>メッセージ</Heading>
             <MediaObjectLayout layout={'half'} className={styles.media}>
                 <div>
-                    <Heading level={4} className={styles.messagebig}>採用候補者に求めることその１を書く。または業務で意識していること、すべきこと</Heading>
+                    <Heading level={4} className={styles.messagebig}>
+                        採用候補者に求めることその１を書く。または業務で意識していること、すべきこと
+                    </Heading>
                 </div>
                 <div className={styles.text}>
                     <Txt className={styles.message}>
+                        
                         SEOを意識した文章をかく。以下は例。水道工事やイベントなど、様々な現場で経験を積むことができます。
                         最初は実務経験者と現場を経験していただき、徐々にリーダーとして現場を率いていただきます。
                     </Txt>
@@ -47,7 +54,9 @@ const RecruitTemplate = () => (
             </MediaObjectLayout>
             <MediaObjectLayout layout={'half'}>
                 <div>
-                    <Heading level={4} className={styles.messagebig}>採用候補者に求めることその2を書くまたは業務で意識していること、すべきこと</Heading>
+                    <Heading level={4} className={styles.messagebig}>
+                        採用候補者に求めることその2を書くまたは業務で意識していること、すべきこと
+                    </Heading>
                 </div>
                 <div className={styles.text}>
                     <Txt className={styles.message}>
