@@ -7,7 +7,12 @@ import LinkButton      from '../../molecules/LinkButton/index';
 import {contactPage}   from '../../data/data';
 
 const Contact = ({...props}) => (
-    <section {...props}>
+    <section 
+        {...props}
+        data-sal="zoom-in"
+        data-sal-duration="400"
+        data-sal-easing="ease"            
+    >
         <div className={styles.root}>
         <ContentHeading title={'お問い合わせ'} eng={'Contact'} />
             <div className={styles.body}>

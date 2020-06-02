@@ -24,7 +24,13 @@ const ContactTemplate = () => (
     <div>
         <Header navigations={navigations} />
         <PageTitle title={contactHeading.title} eng={contactHeading.eng} img={img} className={styles.section}/> 
-        <ContactForm items={items} className={[styles.form, styles.section].join(' ')} />
+        <ContactForm 
+            items={items} 
+            className={[styles.form, styles.section].join(' ')} 
+            data-sal="slide-down"
+            deta-sal-duration="400"
+            data-sal-easing="ease"                            
+        />
         <Footer  navigations={navigations} />
     </div>
 );

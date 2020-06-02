@@ -12,7 +12,14 @@ const CorpLogo = ({
     ,className
     , ...props
 }) => (
-    <div className={[styles.root, className].join(' ')} {...props}>
+    <div 
+        className={[styles.root, className].join(' ')} 
+        {...props}
+        data-sal="slide-down"
+        data-sal-delay="400"
+        data-sal-duration="400"
+        data-sal-easing="ease"                    
+    >
         <Anchor className={styles.logo} href={href} alt={alt}>
             <Img src={logo} width={width} className={styles.image} />
             <span className={styles.name}>{children}</span>

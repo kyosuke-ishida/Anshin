@@ -21,7 +21,12 @@ const BusinessTemplate = () => (
     <div>
         <Header navigations={navigations} />
         <PageTitle title={businessHeading.title} eng={businessHeading.eng} img={img} className={styles.section}/> 
-        <div className={[styles.headwrapper, styles.section].join(' ')}>
+        <div 
+            className={[styles.headwrapper, styles.section].join(' ')}
+            data-sal="zoom-out"
+            data-sal-duration="400"
+            data-sal-easing="ease"                        
+        >
           <Heading className={styles.heading} level={1}>あらゆる現場におもむき、<br />交通誘導を通して地域の安全を維持します。</Heading>
           <Txt className={styles.text}>あんしんセキュリティーは道路工事や建築現場だけではなく<br/>様々なイベント警備業務の実績があります。経験豊富な警備員がお客様の業務を全力でサポートします。</Txt>
         </div>

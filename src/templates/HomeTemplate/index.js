@@ -15,11 +15,39 @@ import {navigations,
 const HomeTemplate = () => (
     <div>
         <Header navigations={navigations} />
-        <MainCopy className={styles.mainCopy} items={items} heading={heading}/>
-        <ImgSlide />
-        <Business className={styles.interval} />
-        <CompanyInf className={styles.interval} />
-        <Recruit className={styles.interval} />
+        <MainCopy 
+            className={styles.mainCopy} 
+            items={items} 
+            heading={heading} 
+            data-sal="fade"
+            data-sal-duration="300"
+            data-sal-delay="300"
+            data-sal-easing="ease"
+        />
+        <ImgSlide 
+            data-sal="slide-left"
+            data-sal-duration="400"
+            data-sal-delay="300"
+            data-sal-easing="ease"            
+        />
+        <Business 
+            className={styles.interval} 
+            data-sal="slide-right"
+            data-sal-duration="400"
+            data-sal-easing="ease"            
+        />
+        <CompanyInf 
+            className={styles.interval} 
+            data-sal="slide-left"
+            data-sal-duration="400"
+            data-sal-easing="ease"            
+        />
+        <Recruit className={styles.interval} 
+            className={styles.interval} 
+            data-sal="slide-right"
+            data-sal-duration="400"
+            data-sal-easing="ease"            
+        />
         <Contact className={styles.interval} />
         <Footer  navigations={navigations}/>
     </div>

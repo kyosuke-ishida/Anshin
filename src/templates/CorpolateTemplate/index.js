@@ -31,12 +31,18 @@ const CorporateTemplate = () => (
             eng={greetingHeading.eng}
             ceoName={ceoName}
             className={styles.section}
+            data-sal="zoom-out"
+            data-sal-duration="400"
+            data-sal-easing="ease"                        
         />
         <ComrporateInformation 
             title={corporateHeading.title} 
             eng={corporateHeading.eng} 
             items={table} 
             className={styles.section} 
+            data-sal="zoom-out"
+            data-sal-duration="400"
+            data-sal-easing="ease"                        
         />
         <Access 
             title={accessHeading.title} 

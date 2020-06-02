@@ -3,7 +3,13 @@ import styles from './styles.module.css';
 import {Link} from '@reach/router';
 
 const Navigation = ({items, ...props}) => (
-    <nav {...props}>
+    <nav 
+        {...props}
+        data-sal="slide-down"
+        data-sal-delay="400"
+        data-sal-duration="400"
+        data-sal-easing="ease"                    
+    >
         <ul className={styles.list}>
             {items.map((item, idx) => (
                 <li key={idx} className={styles.item}>
