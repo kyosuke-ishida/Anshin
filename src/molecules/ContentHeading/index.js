@@ -14,6 +14,7 @@ const ContentHeading = ({
         {...props}
         data-sal="fade-down"
         data-sal-duration="400"
+        data-sal-delay="400"
         data-sal-easing="ease"            
     >
         <Heading className={styles.heading} visualLevel={2}>{title}</Heading>

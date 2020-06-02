@@ -34,23 +34,14 @@ const RecruitTemplate = () => (
         <RecruitTitle 
             recruitImg={recruitImg} 
             className={styles.section} 
-            data-sal="slide-right"
-            data-sal-duration="400"
-            data-sal-easing="ease"                        
         />
         <section 
             className={[styles.definitionwrapper, styles.section].join(' ')} 
-            data-sal="slide-left"
-            data-sal-duration="400"
-            data-sal-easing="ease"                        
         >
             <DefinitionList items={applicantGuideline} className={styles.definitionlist} />
         </section>
         <section 
             className={[styles.messagewrapper, styles.section].join(' ')} 
-            data-sal="slide-up"
-            data-sal-duration="400"
-            data-sal-easing="ease"                            
         >
             <Heading level={5} className={styles.messagetitle}>メッセージ</Heading>
             <MediaObjectLayout 

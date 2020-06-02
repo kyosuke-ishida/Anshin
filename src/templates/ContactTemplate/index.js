@@ -27,9 +27,6 @@ const ContactTemplate = () => (
         <ContactForm 
             items={items} 
             className={[styles.form, styles.section].join(' ')} 
-            data-sal="slide-down"
-            deta-sal-duration="400"
-            data-sal-easing="ease"                            
         />
         <Footer  navigations={navigations} />
     </div>

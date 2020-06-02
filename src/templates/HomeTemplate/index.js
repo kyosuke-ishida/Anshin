@@ -32,21 +32,12 @@ const HomeTemplate = () => (
         />
         <Business 
             className={styles.interval} 
-            data-sal="slide-right"
-            data-sal-duration="400"
-            data-sal-easing="ease"            
         />
         <CompanyInf 
             className={styles.interval} 
-            data-sal="slide-left"
-            data-sal-duration="400"
-            data-sal-easing="ease"            
         />
         <Recruit className={styles.interval} 
             className={styles.interval} 
-            data-sal="slide-right"
-            data-sal-duration="400"
-            data-sal-easing="ease"            
         />
         <Contact className={styles.interval} />
         <Footer  navigations={navigations}/>

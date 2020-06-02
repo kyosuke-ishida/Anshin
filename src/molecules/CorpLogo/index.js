@@ -16,9 +16,8 @@ const CorpLogo = ({
         className={[styles.root, className].join(' ')} 
         {...props}
         data-sal="slide-down"
-        data-sal-delay="400"
         data-sal-duration="400"
-        data-sal-easing="ease"                    
+        data-sal-easing="ease"                      
     >
         <Anchor className={styles.logo} href={href} alt={alt}>
             <Img src={logo} width={width} className={styles.image} />
