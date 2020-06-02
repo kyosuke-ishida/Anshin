@@ -1,10 +1,14 @@
 import React, {Component} from 'react';
-import BusinessTemplate from '../templates/BusinessTemplate/index';
+import BusinessTemplate   from '../templates/BusinessTemplate/index';
+import SEO                from '../atoms/SEO/index';
 
 export default class BusinessPage extends Component {
     render() {
         return (
-            <BusinessTemplate />
+            <>
+                <SEO />
+                <BusinessTemplate />
+            </>
         );
     }
 }

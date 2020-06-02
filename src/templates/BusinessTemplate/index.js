@@ -22,21 +22,21 @@ const BusinessTemplate = () => (
         <Header navigations={navigations} />
         <PageTitle title={businessHeading.title} eng={businessHeading.eng} img={img} className={styles.section}/> 
         <div className={[styles.headwrapper, styles.section].join(' ')}>
-          <Heading className={styles.heading} level={1}>あらゆる現場におもむき、<br />交通整備を通して地域の安全を維持します。</Heading>
-          <Txt className={styles.text}>あんしんセキュリティは水道工事や建築現場だけではなく<br/>様々なイベントの交通整備や人の誘導の実績があります。経験豊富な警備員がお客様の業務を全力でサポートします。</Txt>
+          <Heading className={styles.heading} level={1}>あらゆる現場におもむき、<br />交通誘導を通して地域の安全を維持します。</Heading>
+          <Txt className={styles.text}>あんしんセキュリティーは道路工事や建築現場だけではなく<br/>様々なイベント警備業務の実績があります。経験豊富な警備員がお客様の業務を全力でサポートします。</Txt>
         </div>
         <MediaObjectLayout layout='half' tag={'section'} className={styles.section}>
         <div>
                 <Img src={img01} className={styles.img}/>
             </div>
             <div className={styles.outline}>
-                <ContentHeading title={'交通誘導警備'} eng={'Traffic Control'} />
+                <ContentHeading title={'交通誘導警備業務'} eng={'Traffic Control'} />
                 <Txt>交通誘導を行います。</Txt>
             </div>
         </MediaObjectLayout>
         <MediaObjectLayout layout='half' tag={'section'} className={[styles.section, styles.media].join(' ')}>
         <div className={styles.outline}>
-                <ContentHeading title={'イベントなどの雑踏警備'} eng={'Crowed Control'}></ContentHeading>
+                <ContentHeading title={'イベントなどの警備業務'} eng={'Crowed Control'}></ContentHeading>
                 <Txt>イベントなどの雑踏警備を行います。</Txt>
             </div>
             <div>
