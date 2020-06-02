@@ -7,7 +7,8 @@ const ContactForm = ({items, ...props}) => (
         <div className={styles.wrapper}>
             <p className={styles.text}>下記のフォームに項目を入力の上、「送信」ボタンを押してください。
                 なお、内容によっては、ご連絡までお時間がかかるものがございますので、あらかじめご了承ください。</p>
-            <form name="contact" method="POST" data-netlify="true">                     
+            <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+                <input type="hidden" name="form-name" value="contact" />
                 <DefinitionList items={items} type={'__input'}/>
             </form>
         </div>
